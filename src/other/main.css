@@ -1,0 +1,183 @@
+* {
+    font-family: sans-serif, Courier, monospace;
+}
+
+body{
+    background-color: #ff9966;
+    min-height: max-content;
+    margin: 0;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 250px auto 250px;
+    background-color: #faa57a;
+}
+
+.menuSection {
+    border-right: 1px solid pink;
+}
+
+.mainSection {
+    /* border: 2px solid green; */
+    text-align: center;
+    
+}
+
+.adSection {
+    /* border: 2px solid purple; */
+    border-left: 0.25px solid rgb(167, 167, 167);
+}
+
+
+img.headerImage{
+    display: block;
+    width: 150px; 
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-image: 5px;
+    border-radius: 50%;
+}
+
+ul.headerNavigation{
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ul.headerNavigation li{
+    display: inline;
+}
+
+ul.headerNavigation li a{
+    color: azure;
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+ul.headerNavigation li a:hover{
+    background-color: #0099ff;
+}
+
+nav.navigationHeader{
+    text-align: center;
+}
+
+.task3Div, .task4Div ,.task5Div, .factsAboutPatrick{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: monospace;
+}
+
+
+#task3 > h1,h2 {
+    text-align: center;
+}
+
+.mainSectionGridMainContainer{
+    display: grid;
+    grid-template-columns: auto;
+    /* background-color: green; */
+}
+
+.menuSection ul {
+    list-style-type: none;
+    background-color: #f89361;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.menuSection ul li a{
+    color: azure;
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+}
+
+.menuSection ul li a:hover{
+    background-color: #f8ae89;
+    border: 1px solid rgba(168, 168, 168, 0.384);
+
+}
+
+a{
+    font-size: 25px;
+}
+
+ul, ol{
+    color: #2D4628;
+    list-style-position: inside;
+}
+
+.task4Div p{
+    font-weight: bold;
+}
+
+.task5PatrickPhotoContainer{
+    display: flex;
+    justify-content: center;
+}
+.task5PatrickPhotoContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+    /* border: 2px solid cyan; */
+}
+
+.patrickPhotoGrid-Items {
+    max-width: 250px;
+    margin-bottom: 25px;
+}
+
+#task5 img{
+    width:100%;
+    height:100%;
+    border: 2px solid black;
+}
+
+.factsAboutPatrick ul{
+    text-align: left;
+    line-height: 30px;
+}
+
+.factsAboutPatrick li{
+
+}
+
+.factsAboutPatrick li > span{
+    font-weight: bold;
+    color: #E83100;
+}
+
+/*AD SECTION*/
+
+.patrickEatingCookie{
+    width: 95%;
+    margin: 5px;
+    height: auto;
+}
+
+/*FOOTER*/
+
+footer{
+    background: #ff9966;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    color: white;
+}
